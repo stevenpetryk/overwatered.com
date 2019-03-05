@@ -11,6 +11,12 @@ import "./layout.css"
 const Layout = ({ children }) => (
   <>
     <Helmet
+      meta={[
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1, user-scalable=no",
+        },
+      ]}
       link={[
         { rel: "stylesheet", href: "https://use.typekit.net/yxv2omu.css" },
       ]}
