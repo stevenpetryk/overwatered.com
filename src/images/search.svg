@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-601.000000, -116.000000)" fill="#6C94C5" fill-rule="nonzero">
+            <g id="Search-Copy" transform="translate(589.000000, 106.000000)">
+                <path d="M23.0909638,19.1767503 L26.9748737,23.0606602 C27.365398,23.4511845 27.365398,24.0843494 26.9748737,24.4748737 C26.5843494,24.865398 25.9511845,24.865398 25.5606602,24.4748737 L21.7609865,20.6752 C20.7321062,21.5039396 19.4239837,22 18,22 C14.6862915,22 12,19.3137085 12,16 C12,12.6862915 14.6862915,10 18,10 C21.3137085,10 24,12.6862915 24,16 C24,17.1666317 23.66704,18.2554964 23.0909638,19.1767503 Z M18,20 C20.209139,20 22,18.209139 22,16 C22,13.790861 20.209139,12 18,12 C15.790861,12 14,13.790861 14,16 C14,18.209139 15.790861,20 18,20 Z" id="Oval"></path>
+            </g>
+        </g>
+    </g>
+</svg>

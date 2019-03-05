@@ -22,7 +22,12 @@ export default ({ data: { mdx } }) => (
             <p className="taxonomic-name">{mdx.frontmatter.taxonomic_name}</p>
           </div>
 
-          <img src={require(`../content/plants/${mdx.frontmatter.slug}.jpg`)} />
+          <img
+            src={require(`../content/plants/${
+              mdx.frontmatter.image.relativePath
+            }`)}
+            alt={mdx.frontmatter.display_name}
+          />
         </div>
 
         <MDXRenderer>{mdx.code.body}</MDXRenderer>
@@ -37,6 +42,9 @@ export const pageQuery = graphql`
       id
       frontmatter {
         slug
+        image {
+          relativePath
+        }
         display_name
         taxonomic_name
         watering_needs
