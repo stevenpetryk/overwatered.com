@@ -1,0 +1,23 @@
+.plant-guide {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.plant-summary {
+  display: flex;
+  align-items: center;
+}
+
+.plant-summary h1 {
+  font-family: poynter-oldstyle-display;
+  font-size: 45px;
+  color: #1f2c6d;
+}
+
+.plant-summary .details {
+  flex: 1 0 0;
+}
+
+.plant-summary img {
+  max-width: 150px;
+}

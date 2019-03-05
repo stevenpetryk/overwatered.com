@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Overwatered — The Free Plant Guide",
+    title: "Overwatered, the free plant guide",
     description: "Overwatered is the free guide to plant ownership.",
     author: "@stevenpetryk",
   },
@@ -15,5 +15,13 @@ module.exports = {
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-mdx",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "plants",
+        path: `${__dirname}/src/content/plants`,
+      },
+    },
   ],
 }

@@ -1,6 +1,7 @@
 header[role="main"] h1 {
   font-family: poynter-oldstyle-display, serif;
   text-transform: lowercase;
+  font-size: 25px;
 }
 
 header[role="main"] h1 a {
