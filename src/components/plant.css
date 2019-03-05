@@ -6,12 +6,20 @@
 .plant-summary {
   display: flex;
   align-items: center;
+  min-height: 400px;
 }
 
 .plant-summary h1 {
   font-family: poynter-oldstyle-display;
   font-size: 45px;
   color: #1f2c6d;
+  margin: 0;
+}
+
+.plant-summary .taxonomic-name {
+  font-size: 22px;
+  font-style: italic;
+  margin: 0;
 }
 
 .plant-summary .details {
