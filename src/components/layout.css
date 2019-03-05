@@ -1,0 +1,11 @@
+body {
+  font: 16px system-ui;
+  color: #373b4d;
+  padding: 20px;
+  max-width: 660px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.5;
+}

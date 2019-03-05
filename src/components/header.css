@@ -1,0 +1,15 @@
+header[role="main"] h1 {
+  font-family: poynter-oldstyle-display, serif;
+  text-transform: lowercase;
+}
+
+header[role="main"] h1 a {
+  text-decoration: none;
+  color: #373b4d;
+  display: flex;
+  align-items: center;
+}
+
+header[role="main"] h1 img {
+  margin-right: 10px;
+}
