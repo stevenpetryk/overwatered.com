@@ -1,7 +1,7 @@
 header[role="main"] h1 {
   font-family: poynter-oldstyle-display, serif;
   text-transform: lowercase;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 header[role="main"] h1 a {
@@ -13,4 +13,33 @@ header[role="main"] h1 a {
 
 header[role="main"] h1 img {
   margin-right: 10px;
+}
+
+header[role="main"] nav {
+  display: flex;
+  align-items: baseline;
+}
+
+header[role="main"] .breadcrumbs {
+  margin-inline-end: auto;
+}
+
+header[role="main"] .breadcrumbs a {
+  color: #6c94c5;
+  font-weight: 500;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 15px;
+  padding-inline-end: 25px;
+}
+
+header[role="main"] .breadcrumbs a:first-child {
+  padding-inline-start: 0;
+}
+header[role="main"] .breadcrumbs a:not(:last-child) {
+  background: url("../images/right-arrow.svg") right center no-repeat;
+}
+
+header[role="main"] .breadcrumbs a:last-child {
+  color: #445468;
 }

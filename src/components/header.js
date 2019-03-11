@@ -17,7 +17,15 @@ const Header = () => (
       </Link>
     </h1>
 
-    <Search />
+    <nav>
+      <div className="breadcrumbs">
+        <Link to="#">Guides</Link>
+        <Link to="#">By plant</Link>
+        <Link to="#">Snake plant</Link>
+      </div>
+
+      <Search />
+    </nav>
   </header>
 )
 

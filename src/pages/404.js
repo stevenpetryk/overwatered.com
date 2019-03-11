@@ -17,7 +17,7 @@ const NotFoundPage = () => (
           <p className="taxonomic-name">Errorus notfoundia</p>
         </div>
 
-        <img src={image404} />
+        <img src={image404} alt="An empty pot" />
       </div>
     </div>
   </Layout>
